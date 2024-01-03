@@ -1,0 +1,19 @@
+name: sbi-course
+channels:
+- pytorch
+- defaults
+- conda-forge
+dependencies:
+- python=3.10.9
+- pytorch=2.1.0
+- scikit-learn
+- jupyter
+- jupyterlab
+- scipy
+- nbstripout
+- jupyter_contrib_nbextensions
+- jupyter-black
+- pip
+- pip:
+  - "sbi==0.21.0"
+  - sdeint
